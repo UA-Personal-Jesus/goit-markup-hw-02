@@ -72,6 +72,10 @@ body {
 .link {
   text-decoration: none;
 }
+.main-menu a.link:hover,
+.main-menu a.link:focus {
+  color: var(--hover-color);
+}
 
 .button-link:hover,
 .button-link:focus {
