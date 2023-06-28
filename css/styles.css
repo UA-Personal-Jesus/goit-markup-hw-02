@@ -17,9 +17,9 @@ body {
 }
 
 .header {
-  color: var(--basic-color-logo);
+  color: var(--basic-color-logo, #4d5ae5);
   font-size: 18px;
-  font-family: var(--secondary-font);
+  font-family: var(--secondary-font, "Raleway", sans-serif);
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -31,15 +31,15 @@ body {
 }
 
 .header-logo.link {
-  color: var(--basic-color-logo);
+  color: var(--basic-color-logo, #4d5ae5);
 }
 
 .header-studio {
-  color: var(--primary-black);
+  color: var(--primary-black, #2e2f42);
 }
 
 .address-contacts {
-  color: var(--secondary-black);
+  color: var(--secondary-black, #434455);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -47,7 +47,7 @@ body {
 }
 
 .header-menu-item {
-  color: var(--primary-black);
+  color: var(--primary-black, #2e2f42);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.33;
