@@ -14,7 +14,7 @@ body {
   text-transform: uppercase;
 }
 
-.header-logo {
+.header-logo link {
   color: var(--iris, #4d5ae5);
   font-size: 18px;
   font-family: "Raleway", sans-serif;
