@@ -2,7 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   color: #434455;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .header {
   color: var(--navyblue, #2e2f42);
@@ -37,7 +37,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: normal
+  font-style: normal;
 }
 .header-menu-item {
   color: var(--navyblue, #2e2f42);
@@ -171,9 +171,9 @@ body {
   letter-spacing: 0.02em;
 }
 .section3-job {
-    color: var(--slate, #434455);
-text-align: center;
-font-size: 16px;
-line-height: 1.5
-letter-spacing: 0.02
+  color: var(--slate, #434455);
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02;
 }
