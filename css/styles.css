@@ -52,12 +52,16 @@ body {
   list-style: none;
 }
 
-.address-contacts {
+.address-contacts a.link {
   color: var(--secondary-black);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-style: normal;
+  text-decoration: none;
+}
+.address-contacts a.link:hover {
+  color: var (--hover-color);
 }
 .header-menu-item {
   color: var(--primary-black);
