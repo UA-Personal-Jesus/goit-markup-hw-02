@@ -36,7 +36,7 @@ body {
 }
 
 .header-studio {
-  color: var(--navyblue, #2e2f42);
+  color: #2e2f42;
   font-size: 18px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
