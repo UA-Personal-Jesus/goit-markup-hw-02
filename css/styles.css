@@ -73,7 +73,6 @@ body {
 }
 
 .button-link {
-  display: inline-block;
   background-color: #ccc;
   color: #fff;
   text-decoration: none;
@@ -84,7 +83,6 @@ body {
 }
 
 .button-link-2 {
-  display: inline-block;
   background-color: #ccc;
   color: #fff;
   text-decoration: none;
