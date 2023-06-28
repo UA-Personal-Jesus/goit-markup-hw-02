@@ -49,6 +49,7 @@ body {
 }
 .address {
   font-style: normal;
+  list-style: none;
 }
 
 .address-contacts {
