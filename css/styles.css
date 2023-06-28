@@ -23,6 +23,9 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+.header-menu {
+  color: var(--primary-black);
+}
 
 .header-logo.link {
   color: var(--basic-color-logo);
