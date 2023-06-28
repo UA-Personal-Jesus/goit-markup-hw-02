@@ -15,7 +15,7 @@ body {
   background-color: #ffffff;
 }
 .header {
-  color: var(--iris, #4d5ae5);
+  color: var(--basic-color-logo);
   font-size: 18px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -25,7 +25,7 @@ body {
 }
 
 .header-logo.link {
-  color: var(--iris, #4d5ae5);
+  color: var(--basic-color-logo);
   font-size: 18px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -46,7 +46,7 @@ body {
 }
 
 .address-contacts {
-  color: var(--slate, #434455);
+  color: var(--secondary-black);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -67,7 +67,7 @@ body {
   letter-spacing: 0.04em;
 }
 .main-menu-link-2 {
-  color: var(--iris, #4d5ae5);
+  color: var(--basic-color-logo);
   text-align: center;
   font-size: 16px;
   font-weight: 500;
@@ -115,7 +115,7 @@ body {
   text-transform: uppercase;
 }
 .footer-logo {
-  color: var(--iris, #4d5ae5);
+  color: var(----basic-color-logo);
   font-size: 18px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -124,7 +124,7 @@ body {
   text-transform: uppercase;
 }
 .footer-description {
-  color: var(--cloud, #f4f4fd);
+  color: var(--secondary-whitecolor);
   font-size: 16px;
   line-height: 0.93;
   letter-spacing: 0.02em;
