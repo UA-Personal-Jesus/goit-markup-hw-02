@@ -70,15 +70,12 @@ body {
   text-decoration: none;
 }
 
-.button-link {
-  background-color: #ccc;
-  color: #fff;
-  text-decoration: none;
+.button-link:hover,
+.button-link:focus {
+  color: var(--secondary-whitecolor);
+  background-color: var(--hover-color);
 }
 
-.button-link:hover {
-  background-color: #aaa;
-}
 .main-images-title {
   color: var(--primary-black);
   font-size: 20px;
