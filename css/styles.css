@@ -32,7 +32,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: none; /* Додали стиль для видалення підкреслення */
+  text-decoration: none;
 }
 
 .header-studio {
@@ -60,7 +60,7 @@ body {
   letter-spacing: 0.02em;
 }
 .main-menu-link {
-  color: var(--secondary-black);
+  color: var(--primary-black);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
