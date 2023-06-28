@@ -62,7 +62,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.main-menu link {
+.main-menu a.link {
   color: var(--primary-black);
   font-size: 16px;
   font-weight: 500;
@@ -71,6 +71,10 @@ body {
 }
 .link {
   text-decoration: none;
+}
+.header-menu a:hover,
+.header-menu a:focus {
+  color: var(--hover-color);
 }
 .main-menu a.link:hover,
 .main-menu a.link:focus {
