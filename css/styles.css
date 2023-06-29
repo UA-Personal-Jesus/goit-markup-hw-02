@@ -28,12 +28,12 @@ body {
 }
 
 .header-logo.link {
-  color: var(--basic-color-logo);
-  font-size: 18px;
+  color: var(--secondary-black);
+  font-size: 16px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
   text-decoration: none;
 }
