@@ -52,7 +52,7 @@ body {
   list-style: none;
 }
 
-.address a.list {
+.address-contacts a.link {
   color: var(--primary-black);
   font-size: 16px;
   line-height: 1.5;
