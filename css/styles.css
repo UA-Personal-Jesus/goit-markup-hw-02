@@ -29,7 +29,7 @@ body {
 
 .header-logo.link {
   color: var(--basic-color-logo);
-  font-size: 18x;
+  font-size: 18px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   line-height: 1.17;
