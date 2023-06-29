@@ -50,9 +50,13 @@ body {
 .address {
   font-style: normal;
   list-style: none;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-black);
 }
 
-.address a.list {
+.address-contacts a.link {
   color: var(--primary-black);
   font-size: 16px;
   line-height: 1.5;
