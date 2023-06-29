@@ -59,7 +59,8 @@ body {
   font-style: normal;
   text-decoration: none;
 }
-.address-contacts a.link:hover .address-contacts a.link:focus {
+a.address-contacts.link:hover,
+a.address-contacts.link:focus {
   color: var(--hover-color);
 }
 .header-menu-item {
