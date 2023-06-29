@@ -51,7 +51,7 @@ body {
   font-style: normal;
   list-style: none;
 }
-.address-menu-item {
+.address-menu-item a.address-contacts {
   color: var(--secondary-black);
   font-size: 16px;
   line-height: 1.5;
