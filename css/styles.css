@@ -27,7 +27,7 @@ body {
   color: var(--primary-black);
 }
 
-.header-logo link {
+.header-logo.link {
   color: var(--basic-color-logo);
   font-size: 18x;
   font-family: "Raleway", sans-serif;
