@@ -60,7 +60,7 @@ body {
   text-decoration: none;
 }
 .address-contacts a.link:hover .address-contacts a.link:focus {
-  color: var (--hover-color);
+  color: var(--hover-color);
 }
 .header-menu-item {
   color: var(--primary-black);
