@@ -95,13 +95,6 @@ a.address-contacts.link:focus {
   background-color: var(--hover-color);
 }
 
-.main-images-title {
-  color: var(--primary-black);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
 .main-images-secription {
   color: var(--secondary-black);
   font-size: 16px;
@@ -132,13 +125,14 @@ a.address-contacts.link:focus {
   line-height: 0.93;
   letter-spacing: 0.02em;
 }
-.main-title {
+.solutions {
   color: var(--white, #fff);
   text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  background-color: var(--primary-black);
 }
 .section-features {
   color: var(--navyblue, #2e2f42);
