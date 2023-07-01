@@ -1,12 +1,12 @@
 :root {
-  --primary-font: "Roboto", sans-serif;
-  --secondary-font: "Raleway", sans-serif;
+  --basic-color-logo: #4d5ae5;
+  --hover-color: #404bbf;
   --primary-black: #2e2f42;
+  --green: #31d0aa;
   --secondary-black: #434455;
   --basic-white: #ffffff;
   --secondary-whitecolor: #f4f4fd;
-  --basic-color-logo: #4d5ae5;
-  --hover-color: #404bbf;
+  --cornflower: #e7e9fc;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -100,6 +100,7 @@ a.address-contacts.link:focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  /* FOOTER */
 }
 .footer {
   color: var(--secondary-whitecolor);
@@ -125,58 +126,93 @@ a.address-contacts.link:focus {
   line-height: 0.93;
   letter-spacing: 0.02em;
 }
-.solutions {
-  color: var(--white, #fff);
+/* HTML MAIN */
+.hero {
+  background-color: var(--primary-black);
+  flex-shrink: 0;
+}
+.hero-title {
+  color: var(--basic-white);
   text-align: center;
   font-size: 56px;
+  font-style: normal;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  background-color: var(--primary-black);
 }
-.section-features {
-  color: var(--navyblue, #2e2f42);
-  font-size: 20px;
+.hero-button {
+  color: var(--basic-white);
+  font-size: 16px;
+  font-style: normal;
   font-weight: 500;
+  line-height: 1.5px;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+}
+.features {
+  flex-shrink: 0;
+}
+.list {
+  list-style: none;
+}
+.features-main {
+  color: var(--primary-black);
+  font-weight: 500;
+  font-size: 20px;
+  font-style: normal;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.section-description {
-  color: var(--slate, #434455);
+.features-description {
+  color: var(--secondary-black);
   font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.section2-about {
-  color: var(--navyblue, #2e2f42);
+.products {
+  flex-shrink: 0;
+}
+.products-title {
+  color: var(--primary-black);
   text-align: center;
   font-size: 36px;
+  font-style: normal;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.section3-team {
-  color: var(--navyblue, #2e2f42);
+.team {
+  flex-shrink: 0;
+}
+.team-workers {
+  color: var(--primary-black);
   text-align: center;
   font-size: 36px;
+  font-style: normal;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.section3-employers {
-  color: var(--navyblue, #2e2f42);
+.team-workers-name {
+  color: var(--primary-black);
   text-align: center;
   font-size: 20px;
-  font-weight: 500;
+  font-style: normal;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.section3-job {
-  color: var(--slate, #434455);
+.team-workers-job {
+  color: var(--secondary-black);
   text-align: center;
   font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
 }
