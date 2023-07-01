@@ -145,11 +145,15 @@ a.address-contacts.link:focus {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.5px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
+}
+.hero-button a:hover,
+a:focus {
+  color: var(--hover-color);
 }
 .features {
   flex-shrink: 0;
