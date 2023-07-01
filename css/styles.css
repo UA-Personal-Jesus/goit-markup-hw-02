@@ -153,7 +153,7 @@ a.address-contacts.link:focus {
 }
 .hero-button a:hover,
 a:focus {
-  color: var(--hover-color);
+  background-color: var(--hover-color);
 }
 .features {
   flex-shrink: 0;
