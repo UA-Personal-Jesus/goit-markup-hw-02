@@ -203,7 +203,7 @@ a.address-contacts.link:focus {
 }
 /* FOOTER */
 .footer {
-  color: var(--secondary-whitecolor);
+  color: var(--basic-color-logo);
   font-size: 18px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -213,7 +213,7 @@ a.address-contacts.link:focus {
   background-color: var(--primary-black);
 }
 .footer-logo {
-  color: var(--basic-color-logo);
+  color: var(--secondary-whitecolor);
   font-size: 18px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -224,6 +224,6 @@ a.address-contacts.link:focus {
 .footer-description {
   color: var(--secondary-whitecolor);
   font-size: 16px;
-  line-height: 0.93;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
