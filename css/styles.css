@@ -213,7 +213,7 @@ a.address-contacts.link:focus {
   background-color: var(--primary-black);
 }
 .footer-logo {
-  color: var(--secondary-whitecolor);
+  background-color: var(--secondary-whitecolor);
   font-size: 18px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
