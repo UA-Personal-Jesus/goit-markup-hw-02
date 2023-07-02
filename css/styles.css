@@ -192,6 +192,7 @@ a.address-contacts.link:focus {
 }
 .team {
   flex-shrink: 0;
+  background-color: var(--secondary-whitecolor);
 }
 .team-workers {
   color: var(--primary-black);
@@ -206,6 +207,7 @@ a.address-contacts.link:focus {
 .team-workers-name {
   color: var(--primary-black);
   text-align: center;
+  font-weight: 500;
   font-size: 20px;
   font-style: normal;
   line-height: 1.2;
