@@ -194,7 +194,7 @@ a.address-contacts.link:focus {
   flex-shrink: 0;
   background-color: var(--secondary-whitecolor);
 }
-.team-workers-list {
+.team-workers-bg {
   background-color: var(--basic-white);
 }
 .team-workers {
