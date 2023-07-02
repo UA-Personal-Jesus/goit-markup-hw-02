@@ -151,9 +151,10 @@ a.address-contacts.link:focus {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
 }
-.hero-button a:hover,
-a:focus {
+.hero-button:hover,
+.hero-button:focus {
   background-color: var(--hover-color);
+  color: var(--secondary-whitecolor);
 }
 .features {
   flex-shrink: 0;
