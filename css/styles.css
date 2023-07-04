@@ -94,14 +94,6 @@ a.address-contacts.link:focus {
   color: var(--secondary-whitecolor);
   background-color: var(--hover-color);
 }
-
-.main-images-secription {
-  color: var(--secondary-black);
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
 /* HTML MAIN */
 .hero {
   background-color: var(--primary-black);
@@ -203,6 +195,9 @@ a.address-contacts.link:focus {
 }
 /* FOOTER */
 .footer {
+  background-color: var(--primary-black);
+}
+.footer a.link {
   color: var(--basic-color-logo);
   font-size: 18px;
   font-family: "Raleway", sans-serif;
@@ -210,16 +205,9 @@ a.address-contacts.link:focus {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  background-color: var(--primary-black);
 }
 .footer-logo {
-  background-color: var(--secondary-whitecolor);
-  font-size: 18px;
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+  color: var(--secondary-whitecolor);
 }
 .footer-description {
   color: var(--secondary-whitecolor);
