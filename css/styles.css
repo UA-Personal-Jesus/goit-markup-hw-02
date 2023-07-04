@@ -235,3 +235,17 @@ a.address-contacts.link:focus {
   background-color: var(--hover-color);
   color: var(--basic-white);
 }
+.products-item {
+  color: var(--primary-black);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.product-description {
+  color: var(--secondary-black);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
