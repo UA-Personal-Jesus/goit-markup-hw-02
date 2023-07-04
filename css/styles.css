@@ -197,7 +197,7 @@ a.address-contacts.link:focus {
 .footer {
   background-color: var(--primary-black);
 }
-.footer a.link {
+.footer-link {
   color: var(--basic-color-logo);
   font-size: 18px;
   font-family: "Raleway", sans-serif;
@@ -215,3 +215,4 @@ a.address-contacts.link:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+/* PORTFOLIO MAIN */
