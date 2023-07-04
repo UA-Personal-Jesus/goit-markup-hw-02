@@ -217,18 +217,19 @@ a.address-contacts.link:focus {
 }
 /* PORTFOLIO MAIN */
 .portfolio-btn {
-  color: var(--basic-white);
   text-align: center;
+}
+.portfolio-btn-list {
+  background-color: var(--cornflower);
+  cursor: pointer;
+  color: var(--basic-white);
+
   font-size: 16px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-}
-.portfolio-btn-list {
-  background-color: var(--cornflower);
-  cursor: pointer;
 }
 .portfolio-btn-list:hover,
 .portfolio-btn-list:focus {
