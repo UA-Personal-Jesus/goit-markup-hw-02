@@ -11,18 +11,10 @@
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  color: #434455;
-  background-color: #ffffff;
+  color: var(--secondary-black);
+  background-color: var(--basic-white);
 }
-.header {
-  color: var(--basic-color-logo);
-  font-size: 18px;
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
+
 .header-menu {
   color: var(--primary-black);
 }
@@ -40,27 +32,19 @@ body {
 
 .header-studio {
   color: var(--primary-black);
-  font-size: 18px;
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.03;
-  text-transform: uppercase;
 }
 .address {
   font-style: normal;
-  list-style: none;
 }
-.address-menu-item a.address-contacts {
+.address-menu-item a.link {
   color: var(--secondary-black);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: normal;
   text-decoration: none;
 }
-a.address-contacts.link:hover,
-a.address-contacts.link:focus {
+.address-contacts.link:hover,
+.address-contacts.link:focus {
   color: var(--hover-color);
 }
 .header-menu-item {
@@ -97,21 +81,17 @@ a.address-contacts.link:focus {
 /* HTML MAIN */
 .hero {
   background-color: var(--primary-black);
-  flex-shrink: 0;
 }
 .hero-title {
   color: var(--basic-white);
   text-align: center;
   font-size: 56px;
-  font-style: normal;
-  font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
 .hero-button {
   color: var(--basic-white);
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -123,9 +103,7 @@ a.address-contacts.link:focus {
 .hero-button:focus {
   background-color: var(--hover-color);
 }
-.features {
-  flex-shrink: 0;
-}
+
 .list {
   list-style: none;
 }
@@ -133,33 +111,25 @@ a.address-contacts.link:focus {
   color: var(--primary-black);
   font-weight: 500;
   font-size: 20px;
-  font-style: normal;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .features-description {
   color: var(--secondary-black);
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-.products {
-  flex-shrink: 0;
 }
 .products-title {
   color: var(--primary-black);
   text-align: center;
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 .team {
-  flex-shrink: 0;
   background-color: var(--secondary-whitecolor);
 }
 .team-workers-bg {
@@ -169,7 +139,6 @@ a.address-contacts.link:focus {
   color: var(--primary-black);
   text-align: center;
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -180,7 +149,6 @@ a.address-contacts.link:focus {
   text-align: center;
   font-weight: 500;
   font-size: 20px;
-  font-style: normal;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
@@ -188,7 +156,6 @@ a.address-contacts.link:focus {
   color: var(--secondary-black);
   text-align: center;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -225,7 +192,6 @@ a.address-contacts.link:focus {
   color: var(--basic-color-logo);
   font-size: 16px;
   font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
