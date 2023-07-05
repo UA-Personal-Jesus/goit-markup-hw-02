@@ -36,7 +36,7 @@ body {
 .address {
   font-style: normal;
 }
-.address-menu-item a.link {
+.address-contacts {
   color: var(--secondary-black);
   font-size: 16px;
   line-height: 1.5;
